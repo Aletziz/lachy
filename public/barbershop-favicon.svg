@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Barber pole stripes -->
+  <defs>
+    <pattern id="stripes" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(45)">
+      <rect width="2" height="4" fill="#e74c3c"/>
+      <rect x="2" width="2" height="4" fill="#ffffff"/>
+    </pattern>
+  </defs>
+  
+  <!-- Barber pole -->
+  <rect x="14" y="8" width="4" height="16" fill="url(#stripes)" rx="2"/>
+  
+  <!-- Pole caps -->
+  <ellipse cx="16" cy="8" rx="3" ry="1.5" fill="#95a5a6"/>
+  <ellipse cx="16" cy="24" rx="3" ry="1.5" fill="#95a5a6"/>
+  
+  <!-- Scissors -->
+  <g transform="translate(8,12) scale(0.8)">
+    <!-- Left blade -->
+    <path d="M2,2 L6,6 L4,8 L0,4 Z" fill="#bdc3c7"/>
+    <!-- Right blade -->
+    <path d="M8,2 L4,6 L6,8 L10,4 Z" fill="#bdc3c7"/>
+    <!-- Center screw -->
+    <circle cx="5" cy="6" r="1" fill="#7f8c8d"/>
+  </g>
+  
+  <!-- Comb -->
+  <g transform="translate(20,10) scale(0.6)">
+    <rect x="0" y="0" width="8" height="2" fill="#34495e"/>
+    <rect x="1" y="2" width="0.8" height="6" fill="#34495e"/>
+    <rect x="2.2" y="2" width="0.8" height="6" fill="#34495e"/>
+    <rect x="3.4" y="2" width="0.8" height="6" fill="#34495e"/>
+    <rect x="4.6" y="2" width="0.8" height="6" fill="#34495e"/>
+    <rect x="5.8" y="2" width="0.8" height="6" fill="#34495e"/>
+    <rect x="7" y="2" width="0.8" height="6" fill="#34495e"/>
+  </g>
+</svg>
